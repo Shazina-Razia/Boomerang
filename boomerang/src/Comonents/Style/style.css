@@ -1,0 +1,51 @@
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+html{
+    margin-top:0 !important;
+}
+
+.line-number {
+    box-sizing: border-box;
+    width: 31px;
+    background-color: -internal-light-dark(rgb(240, 240, 240), rgb(60, 60, 60));
+    user-select: none;
+    text-align: right;
+    color: -internal-light-dark(rgb(148, 132, 132), rgb(128, 128, 128));
+    word-break: normal;
+    white-space: nowrap;
+    font-size: 9px;
+    font-family: Helvetica;
+    padding: 0px 4px !important;
+    border-right: 1px solid rgb(187, 187, 187) !important;
+}
+user agent stylesheet
+td {
+    display: table-cell;
+    vertical-align: baseline;
+    padding: 0px !important;
+}
+user agent stylesheet
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: pre;
+    font-size: initial;
+    font-family: monospace;
+    tab-size: 4;
+    border-spacing: 0px;
+}
+user agent stylesheet
+.line-number::before {
+    content: attr(value);
+}
